@@ -1,0 +1,31 @@
+
+.demo-slider {
+  width: 50%;
+  margin: 100px auto;
+}
+.slider-wrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slider {
+  /* width: 1600px; */
+  padding: 0px;
+}
+
+.slide {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+.slide img {
+   width: 150px; 
+   height: 150px;
+}
+.btn-wrapper {
+  margin: 10px;
+  padding: 10px;
+}
