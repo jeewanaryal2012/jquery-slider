@@ -3,7 +3,6 @@ $(document).ready(function() {
   var sliderCount = $(".slide").length;
   $(".slider").width(sliderCount*200);
   var l = 0;
-  //var cnt = $(".slide").length;
   var slideWidth = $(".slide").width();
   var cnt = 0;
 
@@ -15,7 +14,6 @@ $(document).ready(function() {
       }, 500, function() {});
       cnt = cnt-1;
     }
-    console.log(cnt);
   });
 
   $(document).on("click", "#btn-next", function() {
@@ -26,7 +24,6 @@ $(document).ready(function() {
       }, 500, function() {});
       cnt = cnt+1;
     }
-    console.log(cnt);
   });
   
 });
