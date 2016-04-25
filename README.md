@@ -1,2 +1,3 @@
 # jquery-slider
-simple jquery image slider
+simple dynamic jquery image slider with PREV and NEXT buttons
+
